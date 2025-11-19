@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Montserrat, Fira_Code } from "next/font/google";
 import "./globals.css";
 
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -15,6 +16,7 @@ const geistMono = Geist_Mono({
 const montserrat = Montserrat({
   subsets: ['latin'],
   variable: '--font-montserrat',
+  weight: ['200', '300', '400', '500', '600', '700'],
   display: 'swap',
 })
 
