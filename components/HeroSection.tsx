@@ -22,7 +22,7 @@ export default function HeroSection() {
 
       {/* Hero Content */}
       <div className="absolute inset-0 z-10 w-full flex items-center justify-center">
-        <div className="font-light w-full justify-between text-primary text-8xl xl:text-9xl flex flex-col xl:flex-row items-center gap-8 lg:gap-16 px-32 ">
+        <div className="font-light w-full justify-between text-primary text-7xl md:text-9xl lg:text-9xl flex flex-col xl:flex-row items-center gap-8 lg:gap-16 px-32 ">
           <div className={`tracking-widest ${AVANTANIMATION}`}>AVANT</div>
           <div className={DASHANIMATION}>—</div>
           <div className="flex flex-col items-center gap-8">

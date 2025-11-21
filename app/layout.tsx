@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Montserrat, Fira_Code } from "next/font/google";
 import "./globals.css";
+import NavBar from "@/components/NavBar";
 
 
 const geistSans = Geist({
@@ -37,10 +38,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scrollbar-none">
       <body
         className={`${firaCode.variable} ${montserrat.variable} antialiased`}
       >
+        <NavBar />
         {children}
       </body>
     </html>
