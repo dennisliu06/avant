@@ -71,7 +71,7 @@ export default function NavBar() {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                  <Button asChild>
+                  <Button asChild variant="secondary">
                     <Link href="/#work-with-us" className="tracking-widest">
                       WORK WITH US
                     </Link>
@@ -111,7 +111,7 @@ export default function NavBar() {
               >
                 CONTACT
               </Link>
-              <Button asChild className="tracking-widest">
+              <Button asChild className="tracking-widest" variant="secondary">
                 <Link href="/#work-with-us" onClick={() => setIsOpen(false)}>
                   WORK WITH US
                 </Link>

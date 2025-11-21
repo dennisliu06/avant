@@ -32,7 +32,7 @@ export default function HeroSection() {
               <div className={`flex flex-row ${CULTUREANIMATION}`}>Culture</div>
             </div>
 
-            <Button className="tracking-[0.3em] font-fira-code text-xl px-8 py-8 motion-delay-[1.8s] motion-blur-in-md motion-opacity-in-0">
+            <Button variant="secondary" className="tracking-[0.3em] font-fira-code text-xl px-8 py-8 motion-delay-[1.8s] motion-blur-in-md motion-opacity-in-0">
               WORK WITH US
             </Button>
           </div>

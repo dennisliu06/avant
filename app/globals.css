@@ -106,6 +106,56 @@
   --color-evergreen-900: #0a2c07;
   --color-evergreen-950: #071f05;
 
+  --color-emerald-50: #ecf9f0;
+  --color-emerald-100: #d8f3e1;
+  --color-emerald-200: #b1e7c3;
+  --color-emerald-300: #8bdaa5;
+  --color-emerald-400: #64ce87;
+  --color-emerald-500: #3dc269;
+  --color-emerald-600: #319b54;
+  --color-emerald-700: #25743f;
+  --color-emerald-800: #184e2a;
+  --color-emerald-900: #0c2715;
+  --color-emerald-950: #091b0f;
+
+  --color-evergreen-50: #e6fef6;
+  --color-evergreen-100: #cdfeec;
+  --color-evergreen-200: #9bfdd9;
+  --color-evergreen-300: #69fcc6;
+  --color-evergreen-400: #37fbb3;
+  --color-evergreen-500: #05faa0;
+  --color-evergreen-600: #04c880;
+  --color-evergreen-700: #039660;
+  --color-evergreen-800: #026440;
+  --color-evergreen-900: #013220;
+  --color-evergreen-950: #012316;
+
+  --color-ivory-mist: #fdf5e2;
+  --color-ivory-mist-50: #fdf7e7;
+  --color-ivory-mist-100: #fceecf;
+  --color-ivory-mist-200: #f8dea0;
+  --color-ivory-mist-300: #f5cd70;
+  --color-ivory-mist-400: #f2bc40;
+  --color-ivory-mist-500: #eeac11;
+  --color-ivory-mist-600: #bf890d;
+  --color-ivory-mist-700: #8f670a;
+  --color-ivory-mist-800: #5f4507;
+  --color-ivory-mist-900: #302203;
+  --color-ivory-mist-950: #211802;
+
+  --color-camel: #988558;
+  --color-camel-50: #f6f4ef;
+  --color-camel-100: #ece8df;
+  --color-camel-200: #dad2be;
+  --color-camel-300: #c7bb9e;
+  --color-camel-400: #b5a47d;
+  --color-camel-500: #a28d5d;
+  --color-camel-600: #82714a;
+  --color-camel-700: #615538;
+  --color-camel-800: #413925;
+  --color-camel-900: #201c13;
+  --color-camel-950: #17140d;
+
   --color-primary: #082306;
 
   --color-sidebar-ring: var(--sidebar-ring);
