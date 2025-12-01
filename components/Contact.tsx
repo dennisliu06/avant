@@ -171,29 +171,30 @@ export default function Contact() {
   return (
     <div
       id="contact"
-      className="min-h-screen w-full bg-ivory-mist flex font-montserrat"
+      className="min-h-screen w-full bg-ivory-mist flex flex-col lg:flex-row font-montserrat"
     >
-      <div className="w-1/2 flex flex-col justify-center px-32 py-12">
-        <div className="max-w-xl">
+      {/* LEFT SIDE - Form */}
+      <div className="w-full lg:w-1/2 flex flex-col justify-center px-6 sm:px-12 md:px-20 lg:px-32 py-12 md:py-16 lg:py-12">
+        <div className="max-w-xl mx-auto w-full">
           {/* Heading */}
-          <div className="mb-12">
-            <h1 className="text-7xl  tracking-wider mb-2">
+          <div className="mb-8 md:mb-12">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl tracking-wider mb-2">
               LET'S{" "}
-              <span className="font-blosta italic font-light text-8xl">
+              <span className="font-blosta italic font-light text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
                 Connect
               </span>
             </h1>
           </div>
 
-          
-
           {/* Contact Form */}
-          <div className="space-y-4 mb-12">
+          <div className="space-y-4 mb-8 md:mb-12">
             <FieldSet>
-              <FieldLegend className="font-semibold tracking-widest">
+              <FieldLegend className="font-semibold tracking-widest text-sm md:text-base">
                 EMAIL
               </FieldLegend>
-              <FieldDescription>contact@avantmgmt.co</FieldDescription>
+              <FieldDescription className="text-sm md:text-base">
+                contact@avantmgmt.co
+              </FieldDescription>
 
               <FieldGroup>
                 <Field
@@ -262,7 +263,7 @@ export default function Contact() {
                   <Button
                     type="button"
                     onClick={handleSubmit}
-                    className="py-4 px-8"
+                    className="py-3 px-6 md:py-4 md:px-8 w-full sm:w-auto"
                     disabled={isSubmitting}
                   >
                     {isSubmitting ? "Sending..." : "Submit"}
@@ -291,6 +292,7 @@ export default function Contact() {
             <a
               href="https://www.linkedin.com/company/avant-management-llc/"
               target="_blank"
+              rel="noopener noreferrer"
               className="w-10 h-10 bg-black rounded-full flex items-center justify-center hover:bg-gray-800 transition-colors"
             >
               <Linkedin className="w-5 h-5 text-white" />
@@ -299,15 +301,15 @@ export default function Contact() {
         </div>
       </div>
 
-      {/* right side */}
-      <div className="w-1/2 relative bg-linear-to-br from-yellow-600 to-yellow-700 overflow-hidden">
+      {/* RIGHT SIDE - Image */}
+      <div className="w-full lg:w-1/2 relative bg-linear-to-br from-yellow-600 to-yellow-700 overflow-hidden min-h-[400px] lg:min-h-screen">
         <div className="absolute inset-0 opacity-30">
           <div className="absolute top-0 left-0 w-full h-32 bg-linear-to-b from-yellow-800 to-transparent"></div>
           <div className="absolute bottom-0 left-0 w-full h-32 bg-linear-to-t from-yellow-800 to-transparent"></div>
         </div>
 
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="w-64 h-80 bg-[#f5f1e8] shadow-2xl flex items-center justify-center">
+        <div className="absolute inset-0 flex items-center justify-center p-6">
+          <div className="w-48 h-64 sm:w-56 sm:h-72 md:w-64 md:h-80 bg-[#f5f1e8] shadow-2xl flex items-center justify-center">
             <div className="text-gray-400 text-center">
               <p className="text-sm">Some image</p>
             </div>
