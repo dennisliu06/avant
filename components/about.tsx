@@ -6,7 +6,7 @@ export default function AboutPage() {
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 px-8">
         {/* LEFT: Text */}
         <div className="flex flex-col justify-center">
-          <p className="tracking-[0.3em] text-sm uppercase text-[#2b3b32] mb-4">
+          <p className="tracking-[0.3em] text-sm uppercase text-primary mb-4">
             Avant
           </p>
 
