@@ -40,8 +40,8 @@ export default function RootLayout({
   return (
     <html lang="en" className="scrollbar-none">
       <body
-        className={`${firaCode.variable} ${montserrat.variable} antialiased`}
-      >
+        className={`${firaCode.variable} ${montserrat.variable} antialiased bg-[#f4f0ea]`}
+        >
         <NavBar />
         {children}
       </body>
