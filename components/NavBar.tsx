@@ -30,7 +30,7 @@ export default function NavBar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 ${isMobile ? "bg-white/70" : "bg-dust-grey-500/10"} backdrop-blur-xs font-montserrat transition-transform duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 ${isMobile ? "bg-white/70 delay-[1500ms]" : "bg-dust-grey-500/10"} backdrop-blur-xs font-montserrat transition-transform duration-300 ${
         (isScrolled || isMobile)  ? "translate-y-0" : "-translate-y-full"
       }`}
     >
