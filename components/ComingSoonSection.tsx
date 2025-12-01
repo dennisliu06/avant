@@ -77,6 +77,22 @@ export default function ComingSoon() {
           </div>
         </div>
       </div>
+
+      <div className="w-1/2 relative bg-linear-to-br from-yellow-600 to-yellow-700 overflow-hidden">
+        <div className="absolute inset-0 opacity-30">
+          <div className="absolute top-0 left-0 w-full h-32 bg-linear-to-b from-yellow-800 to-transparent"></div>
+          <div className="absolute bottom-0 left-0 w-full h-32 bg-linear-to-t from-yellow-800 to-transparent"></div>
+        </div>
+        
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="w-64 h-80 bg-[#f5f1e8] shadow-2xl flex items-center justify-center">
+            <div className="text-gray-400 text-center">
+              <p className="text-sm">Product Image</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   );
 }
