@@ -179,7 +179,7 @@ export default function Contact() {
           <div className="mb-12">
             <h1 className="text-7xl  tracking-wider mb-2">
               LET'S{" "}
-              <span className="font-blosta italic font-light text-7xl">
+              <span className="font-blosta italic font-light text-8xl">
                 Connect
               </span>
             </h1>
