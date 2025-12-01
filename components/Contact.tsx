@@ -15,9 +15,9 @@ import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
 import { Button } from "./ui/button";
 
-export default function ComingSoon() {
+export default function Contact() {
   return (
-    <div className="min-h-screen w-full bg-ivory-mist flex font-montserrat">
+    <div id="contact" className="min-h-screen w-full bg-ivory-mist flex font-montserrat">
 
       <div className="w-1/2 flex flex-col justify-center px-32 py-12">
         <div className="max-w-xl">
@@ -78,6 +78,9 @@ export default function ComingSoon() {
         </div>
       </div>
 
+
+
+      {/* right side */}
       <div className="w-1/2 relative bg-linear-to-br from-yellow-600 to-yellow-700 overflow-hidden">
         <div className="absolute inset-0 opacity-30">
           <div className="absolute top-0 left-0 w-full h-32 bg-linear-to-b from-yellow-800 to-transparent"></div>
