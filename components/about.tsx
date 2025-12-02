@@ -14,7 +14,7 @@ export default function AboutPage() {
           setIsVisible(true);
         }
       },
-      { threshold: 0.2 } // Lower threshold for mobile
+      { threshold: 0.9 } // Lower threshold for mobile
     );
 
     if (sectionRef.current) {
