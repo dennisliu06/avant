@@ -29,7 +29,7 @@ export default function AboutPage() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="min-h-screen color-porcelain-50 w-full py-12 md:py-24">
+    <section id="about" ref={sectionRef} className="min-h-screen color-porcelain-50 w-full py-12 md:py-24">
       <div className="max-w-6xl mx-auto grid grid-cols-1 xl:grid-cols-2 gap-8 md:gap-16 px-4 md:px-8">
         {/* LEFT: Text */}
         <div 
